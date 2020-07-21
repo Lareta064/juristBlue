@@ -1,0 +1,36 @@
+.button {
+	height: 52px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: @ff1;
+	line-height: 52px;
+	border: 1px solid @ac;
+	background: @ac;
+	border-radius: 3px;
+	color: #fff;
+	transition: .5s;
+
+
+}
+
+.button:hover {
+	color: @pr;
+	// background: linear-gradient(180deg, #F8C950 0%, #FFBD11 100%);
+	background-color: darken(@ac, 5%);
+
+}
+
+.button.button-light {
+	background-color: transparent;
+	color: @ac;
+
+	&:hover {
+		background: @ac;
+		color: #fff;
+	}
+}
