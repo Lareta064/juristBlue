@@ -52,7 +52,6 @@ $(document).ready(function () {
 	if (toggleFixMenu) {
 
 		toggleFixMenu.addEventListener('click', function () {
-			console.log('555');
 			if (this.classList.contains('active')) {
 				this.classList.remove('active');
 				fixMenu.classList.remove('active');
